@@ -1,4 +1,4 @@
-** User Directory App **
+**User Directory App**
 
 This sample showcases a modern architectural approach to developing Android applications using a User Directory use case.
 
