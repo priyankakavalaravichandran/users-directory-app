@@ -9,11 +9,15 @@ plugins {
 }
 
 android {
-    namespace = "com.anz.userdirectoryapp"
-    compileSdk = 36
+    namespace = "com.anz.usersdirectoryapp"
+    compileSdk {
+        version = release(36) {
+            minorApiLevel = 1
+        }
+    }
 
     defaultConfig {
-        applicationId = "com.anz.userdirectoryapp"
+        applicationId = "com.anz.usersdirectoryapp"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -27,6 +31,9 @@ android {
             enableUnitTestCoverage = true
         }
         release {
+            optimization {
+                enable = false
+            }
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),

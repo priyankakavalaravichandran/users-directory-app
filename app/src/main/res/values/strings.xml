@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">UsersDirectoryApp</string>
+    <string name="user_directory">Users Directory</string>
+    <string name="user_profile">User Profile</string>
+    <string name="no_users_found">No User Found</string>
+    <string name="navigate_back_to_user_directory">Navigate back to User Directory</string>
+    <string name="your_email">Your Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="company_name">Company Name</string>
+    <string name="retry">Retry</string>
 </resources>
