@@ -42,7 +42,7 @@ This project follows Clean Architecture principles a and is structured into doma
 
 • **ui/feature** : Screen-level composables and their respective ViewModels
 
-◦ ** ui/component/** : Reusable UI elements (Avatar, InfoRows, Error states).
+◦ **ui/component/** : Reusable UI elements (Avatar, InfoRows, Error states).
 
 ◦ **ui/theme/** : App-wide styling, colors, and typography.
 
